@@ -63,22 +63,83 @@
 /**********************************/
 /* 1. Tags
 /**********************************/
-
+html {
+	font-size: 62.5%;
+}
 body {
 	background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png');
+	font-family: "Bungee", verdana, sans-serif;
 }
 
 /**********************************/
 /* 2. Body
 /**********************************/
 
+.container {
+	width: var(--game-size);
+	margin-left: auto;
+	margin-right: auto;
+}
 /**********************************/
 /* 3. Game
 /**********************************/
 
+.game {
+	width: var(--game-size);
+	height: var(--game-size);
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5rem;
+}
+
 /**********************************/
 /* 3.1 Pads
 /**********************************/
+
+.game__pad {
+	width: calc(var(--game-size) / 2);
+	height: calc(var(--game-size) / 2);
+}
+
+.game__pad--tl {
+	background-color: var(--clr-normal-green);
+	border-top-left-radius: 100%;
+}
+
+.game__pad--tr {
+	background-color: var(--clr-normal-red);
+	border-top-right-radius: 100%;
+}
+
+.game__pad--bl {
+	background-color: var(--clr-normal-yellow);
+	border-bottom-left-radius: 100%;
+}
+
+.game__pad--br {
+	background-color: var(--clr-normal-blue);
+	border-bottom-right-radius: 100%
+}
+
+.game__pad--tl.game__pad--active {
+	background-color: var(--clr-light-green);
+}
+
+.game__pad--tr.game__pad--active {
+	background-color: var(--clr-light-red);
+}
+
+.game_pad--bl.game__pad--active {
+	background-color: var(--clr-light-yellow);
+}
+
+.game__pad--br.game__pad--active {
+	background-color: var(--clr-light-blue);
+}
+
+.game__pad--btn {
+	cursor: pointer;
+}
 
 /**********************************/
 /* 3.2 Center
@@ -91,3 +152,9 @@ body {
 /**********************************/
 /* 4. Footer
 /**********************************/
+
+footer {
+	text-align: center;
+	margin-top: 5rem;
+	font-size: 1rem;
+}
