@@ -6,7 +6,7 @@ Genius era um brinquedo muito popular na década de 1980. Distribuído pela Estr
 
 Nesse repositório você encontra o projeto do jogo Genius completo, construído com HTML, CSS e Javascript.
 
-- Você pode conferir o resultado final do projeto [clicando aqui](game-genius-project.netlify.app).
+- Você pode conferir o resultado final do projeto [clicando aqui](https://game-genius-project.netlify.app).
 
 ## O que foi utilizado neste projeto:
 
