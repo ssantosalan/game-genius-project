@@ -30,3 +30,8 @@ Nesse repositório você encontra o projeto do jogo Genius completo, construído
   - setTimeout()
   - setInterval()
 
+## Genius
+![genius-img](https://user-images.githubusercontent.com/79291946/133690043-71acfc91-cd1a-44d8-b4da-365d3032e46e.png)
+
+
+
