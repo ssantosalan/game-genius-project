@@ -31,7 +31,8 @@ Nesse repositório você encontra o projeto do jogo Genius completo, construído
   - setInterval()
 
 ## Genius
-![genius-img](https://user-images.githubusercontent.com/79291946/133690043-71acfc91-cd1a-44d8-b4da-365d3032e46e.png)
+
+![genius-img](https://user-images.githubusercontent.com/79291946/133690148-0153cf40-39a6-46f1-a4ab-17c5f7e119b3.png)
 
 
 
