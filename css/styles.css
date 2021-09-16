@@ -146,7 +146,7 @@ body {
 	background-color: var(--clr-light-red);
 }
 
-.game_pad--bl.game__pad--active {
+.game__pad--bl.game__pad--active {
 	background-color: var(--clr-light-yellow);
 }
 
