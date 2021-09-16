@@ -44,6 +44,7 @@ _gui.switch.addEventListener("click", () => {
 	_data.playerSequence = [];
 
 	disablePads();
+	changePadCursor("auto");
 
 	_gui.led.classList.remove("gui__led--active");
 });
@@ -129,6 +130,8 @@ const playSequence = () => {
 	_data.playerSequence = [];
 	_data.playerCanPlay = false;
 
+	changePadCursor("auto");
+
 	const interval = setInterval(() => {
 		if(!_data.gameOn) {
 			clearInterval(interval);
@@ -140,6 +143,7 @@ const playSequence = () => {
 				clearInterval(interval);
 				disablePads();
 				waitForPlayerClick();
+				changePadCursor("pointer");
 				_data.playerCanPlay = true;
 				return
 			}
@@ -217,7 +221,9 @@ const resetOrPlayAgain = () => {
 }
 
 const changePadCursor = (cursorType) => {
-
+	_gui.pads.forEach(pad => {
+		pad.style.cursor = cursorType;
+	});
 }
 
 const disablePads = () => {
