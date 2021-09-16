@@ -67,7 +67,7 @@ html {
 	font-size: 62.5%;
 }
 body {
-	background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png');
+	background-color: #9b9b9b;
 	font-family: "Bungee", verdana, sans-serif;
 }
 
@@ -297,9 +297,38 @@ body {
 /**********************************/
 
 footer {
+	background-color: black;
+	width: 100%;
+	height: 20px;
+	margin: auto;
+	bottom: 0;
+	position: fixed;
+	
+}
+
+footer > p {
+	font-family: sans-serif;
 	text-align: center;
-	margin-top: 5rem;
-	font-size: 1rem;
+	margin: 0;
+}
+
+footer strong {
+	color: yellow;
+}
+
+strong {
+	color: yellow;
+}
+
+a {
+	text-decoration: none;
+	color: yellow;
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 @media (max-width: 600px) {
