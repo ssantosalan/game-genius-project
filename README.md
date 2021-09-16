@@ -8,7 +8,7 @@ Nesse repositório você encontra os *starter files* de um projeto de um jogo Ge
 
 - Você pode conferir o resultado final do projeto [clicando aqui](https://genius.surge.sh/).
 
-## O que você irá aprender ao terminar esse projeto:
+## O que foi utilizado neste projeto:
 
 - CSS
   - Variáveis CSS
